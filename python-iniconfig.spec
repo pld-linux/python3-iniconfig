@@ -17,7 +17,7 @@ Source0:	https://files.pythonhosted.org/packages/source/i/iniconfig/iniconfig-%{
 URL:		https://pypi.org/project/iniconfig/
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.5
-BuildRequires:	python-setuptools >= 41.2.0
+BuildRequires:	python-setuptools >= 1:41.2.0
 BuildRequires:	python-setuptools_scm >= 3
 %if %{with tests}
 BuildRequires:	python-pytest
@@ -25,7 +25,7 @@ BuildRequires:	python-pytest
 %endif
 %if %{with python3}
 BuildRequires:	python3-modules >= 1:3.2
-BuildRequires:	python3-setuptools >= 41.2.0
+BuildRequires:	python3-setuptools >= 1:41.2.0
 BuildRequires:	python3-setuptools_scm >= 3
 %if %{with tests}
 BuildRequires:	python3-pytest
