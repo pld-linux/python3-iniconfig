@@ -8,7 +8,7 @@ Summary:	Brain-dead simple config-ini parsing
 Summary(pl.UTF-8):	Bezmyślnie prosta analiza formatu config-ini
 Name:		python-iniconfig
 Version:	1.1.1
-Release:	4
+Release:	5
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/iniconfig/
